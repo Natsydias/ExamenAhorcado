@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #002a64ea;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Estilos para la palabra y el formulario */
+.palabra-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+.palabra {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.letra {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s;
+}
+
+/* Estilo para el efecto de hover sobre las letras */
+.letra:hover {
+    border-bottom-color: #ff0000; /* Cambia el color al pasar el cursor */
+}
+
+.formulario {
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.formulario input[type="text"] {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.formulario button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f6f6f6;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #00b32d; /* Cambia el color al pasar el cursor */
+}
+
+/* Estilos para el muñeco */
+.muñeco-container {
+    position: relative;
+    text-align: right; /* Alineación del texto a la derecha */
+    margin-bottom: 20px;
+}
+
+.muñeco {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.muñeco img {
+    width: 100px; /* Ajusta el tamaño según tu preferencia */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Estilos para el mensaje de error */
+.error {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
